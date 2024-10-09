@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000; /* Altere esta cor para mudar a cor da navbar */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.navbar img {
+    max-width: 100px; /* Tamanho da logo */
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+.evento {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+}
+img {
+    max-width: 30%;
+    border-radius: 5px;
+}
+.contato {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 10px 0 5px;
+}
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333333;
+}
